@@ -12,7 +12,6 @@ const notes = [
 const Home = () => {
   const navigate = useNavigate();
   const [playingGif, setPlayingGif] = useState(false);
-  const [redirectUrl, setRedirectUrl] = useState("");
 
   const handleNoteClick = (link) => {
     setPlayingGif(true);
